@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
-  final expectPreferMultiBlocProvider = BlocProvider(
+  BlocProvider(
     create: (_) => ACubit(),
     // expect_lint: prefer_multi_bloc_provider
     child: BlocProvider(
@@ -12,7 +12,7 @@ void main() {
     ),
   );
 
-  final dontExpectPreferMultiBlocProvider = MultiBlocProvider(
+  MultiBlocProvider(
     providers: [
       BlocProvider(create: (_) => ACubit()),
       BlocProvider(create: (_) => BCubit()),

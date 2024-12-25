@@ -5,7 +5,8 @@ class TestPublicPropertiesCubit extends Cubit<int> {
 
   // expect_lint: avoid_public_properties_on_bloc_and_cubit
   int value = 0;
-  String _privateValue = 'abc';
+  // ignore: unused_field
+  final String _privateValue = 'abc';
 }
 
 class TestPublicPropertiesBloc extends Bloc<int, int> {
@@ -13,5 +14,6 @@ class TestPublicPropertiesBloc extends Bloc<int, int> {
 
   // expect_lint: avoid_public_properties_on_bloc_and_cubit
   int value = 0;
-  String _privateValue = 'abc';
+  // ignore: unused_field
+  final String _privateValue = 'abc';
 }

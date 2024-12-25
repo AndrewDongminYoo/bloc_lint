@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
-  final expectPreferMultiRepositoryProvider = RepositoryProvider(
+  RepositoryProvider(
     create: (_) => RepositoryA(),
     // expect_lint: prefer_multi_repository_provider
     child: RepositoryProvider(
@@ -12,7 +12,7 @@ void main() {
     ),
   );
 
-  final dontExpectPreferMultiBlocProvider = MultiRepositoryProvider(
+  MultiRepositoryProvider(
     providers: [
       RepositoryProvider(create: (_) => RepositoryA()),
       RepositoryProvider(create: (_) => RepositoryB()),

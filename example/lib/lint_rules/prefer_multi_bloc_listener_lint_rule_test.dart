@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
-  final expectPreferMultiBlocListener = BlocListener<ACubit, AState>(
+  BlocListener<ACubit, AState>(
     listener: (BuildContext context, state) {},
     // expect_lint: prefer_multi_bloc_listener
     child: BlocListener<BCubit, BState>(
@@ -12,7 +12,7 @@ void main() {
     ),
   );
 
-  final dontExpectPreferMultiBlocListener = MultiBlocListener(
+  MultiBlocListener(
     listeners: [
       BlocListener<ACubit, AState>(
         listener: (BuildContext context, state) {},

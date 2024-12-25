@@ -6,5 +6,6 @@ class AvoidPublicMethodOnBlocBloc extends Bloc<int, int> {
   // expect_lint: avoid_public_methods_on_bloc
   void publicMethod() {}
 
+  // ignore: unused_element
   void _privateMethod() {}
 }
