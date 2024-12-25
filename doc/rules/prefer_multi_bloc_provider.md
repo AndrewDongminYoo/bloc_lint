@@ -1,5 +1,5 @@
-prefer-multi-bloc-provider
-===
+# prefer-multi-bloc-provider
+
 severity: WARNING
 
 Warns when a `BlocProvider` can be replaced by a `MultiBlocProvider`.

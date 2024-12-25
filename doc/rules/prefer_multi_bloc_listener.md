@@ -1,5 +1,5 @@
-prefer-multi-bloc-listener
-===
+# prefer-multi-bloc-listener
+
 severity: WARNING
 
 Warns when a `BlocListener` can be replaced by a `MultiBlocListener`.

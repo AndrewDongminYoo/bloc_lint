@@ -1,5 +1,5 @@
-prefer-multi-repository-provider
-===
+# prefer-multi-repository-provider
+
 severity: WARNING
 
 Warns when a `RepositoryProvider` can be replaced by a `MultiRepositoryProvider`.

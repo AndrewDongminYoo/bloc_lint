@@ -1,5 +1,5 @@
-state_base_class_suffix
-===
+# state_base_class_suffix
+
 severity: WARNING
 
 The base state class should always be suffixed by `State`.

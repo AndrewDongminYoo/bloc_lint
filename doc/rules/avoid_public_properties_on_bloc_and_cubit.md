@@ -1,5 +1,5 @@
-avoid_public_properties_on_bloc_and_cubit
-===
+# avoid_public_properties_on_bloc_and_cubit
+
 severity: WARNING
 
 Avoid public properties on `Bloc` and `Cubit`, prefer emit state or use private value.
@@ -17,6 +17,7 @@ class MyCubit extends Cubit<int> {
 ```
 
 ✅ **GOOD**:
+
 ```dart
 class MyCubit extends Cubit<int> {
   MyCubit() : super(0);

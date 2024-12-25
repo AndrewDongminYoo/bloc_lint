@@ -1,5 +1,5 @@
-event_base_class_suffix
-===
+# event_base_class_suffix
+
 severity: WARNING
 
 The base event class should always be suffixed by `Event`.

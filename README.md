@@ -1,15 +1,16 @@
-Bloc Lint
-===
+# Bloc Lint
 
-# ⚠️ IMPORTANT NOTICE:
+## ⚠️ IMPORTANT NOTICE:
+
 This package have moved to [bloc monorepo](https://github.com/felangel/bloc/pull/4278) and will be maintained there.
 
 Please refer to the Bloc monorepo for the latest updates.
 
 ---
 
-Custom linter rules for Flutter projects using the [bloc library](https://bloclibrary.dev/). This package is based on 
-[dart_custom_lint](https://github.com/invertase/dart_custom_lint) package.
+Custom linter rules for Flutter projects using the [bloc library](https://bloclibrary.dev/).
+
+This package is based on [dart_custom_lint](https://github.com/invertase/dart_custom_lint) package.
 
 ## Usage
 
@@ -44,4 +45,4 @@ The example folder contains a dart project to unit test the rules. (see custom_l
 - [prefer_multi_bloc_listener](doc/rules/prefer_multi_bloc_listener.md)
 - [prefer_multi_bloc_provider](doc/rules/prefer_multi_bloc_provider.md)
 - [prefer_multi_repository_provider](doc/rules/prefer_multi_repository_provider.md)
-- [state_base_class_suffix](doc/rules/state_base_class_suffix.md) 
+- [state_base_class_suffix](doc/rules/state_base_class_suffix.md)
