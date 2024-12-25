@@ -1,12 +1,16 @@
-name: 'bloc_lint_example'
-description: 'A project to test bloc_lint rules.'
+name: bloc_lint_example
+description: A project to test bloc_lint rules.
 environment:
   sdk: ">=3.3.3 <4.0.0"
 
 dependencies:
+  bloc: ^8.1.4
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.6
+  meta: ^1.15.0
+
+dev_dependencies:
   custom_lint: ^0.7.0
   bloc_lint:
-    path: '../'
-  flutter_bloc: ^8.1.6
+    path: ../
